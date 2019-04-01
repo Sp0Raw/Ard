@@ -38,7 +38,7 @@ Adafruit_AM2320 am2320 = Adafruit_AM2320();
 //   Setup statment
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 void setup(void){
-  Serial.begin(115200);
+  Serial.begin(57600);
   Serial.println("{\"start\":"+String(millis()));
 
   Serial.print(",\"version\": \""+VERSION+" "+dVERSION+"\"");
